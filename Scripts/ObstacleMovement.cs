@@ -11,7 +11,7 @@ public class ObstacleMovement : MonoBehaviour
     {
         transform.Translate(Vector3.down * moveSpeed * Time.deltaTime);
 
-        // تدمير العقبة بعد خروجها من الشاشة
+      
         Camera cam = Camera.main;
         if (cam != null && transform.position.y < -cam.orthographicSize - 1f)
         {

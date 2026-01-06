@@ -26,6 +26,6 @@ public class ObstacleColor : MonoBehaviour
             GameManager.instance?.AddScore(1);
         }
 
-        Destroy(gameObject); // تدمير النسخة (Instance) — هذا آمن ✅
+        Destroy(gameObject); 
     }
 }
